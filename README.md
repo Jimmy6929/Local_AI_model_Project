@@ -1,4 +1,4 @@
-# Jimmy Personal AI Assistant
+# Personal AI Assistant
 
 A private AI assistant system designed with SaaS architecture from day one. This project aims to build a personal AI that matches the experience of ChatGPT while maintaining full control over infrastructure, data, and costs.
 
