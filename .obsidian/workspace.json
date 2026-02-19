@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "a49e6ac18754b0a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "78d017bffc7c04dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0bf188ed9ad49e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/00_README/step-by-step-guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "step-by-step-guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "262c62b6abc3948d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ce50136701d1a69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "467312fbde6d1e47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4866340aff82234c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "79d4e44262da763d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "658af535329c1fc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "96434322210a8e5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fffbd86abbbb19eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/00_README/step-by-step-guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for step-by-step-guide"
+            }
+          },
+          {
+            "id": "77546725444c3aa1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/00_README/step-by-step-guide.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from step-by-step-guide"
+            }
+          },
+          {
+            "id": "c76dffa929360296",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5694f1c9f85b382c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/00_README/step-by-step-guide.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of step-by-step-guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e0bf188ed9ad49e3",
+  "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "docs/00_README/step-by-step-guide.md",
+    "docs/00_README/overview.md",
+    "docs/00_README/glossary.md",
+    "Untitled.canvas",
+    "docs/01_PRODUCT/mvp-scope.md",
+    "docs/04_DATABASE_SUPABASE/auth-and-jwt.md",
+    "Supabase.md",
+    "docs/02_ARCHITECTURE/data-flow.md"
+  ]
+}

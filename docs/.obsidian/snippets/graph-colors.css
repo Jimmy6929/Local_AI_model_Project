@@ -1,0 +1,135 @@
+/* Graph View Color Coding for Jimmy AI Assistant Docs */
+/* Enable this snippet in Settings > Appearance > CSS Snippets */
+
+/* 
+   Color Groups by Tag:
+   - readme:        🟢 Green (#4CAF50)
+   - product:       🔵 Blue (#2196F3)
+   - architecture:  🟣 Purple (#9C27B0)
+   - infrastructure:🟠 Orange (#FF9800)
+   - database:      🔴 Red (#F44336)
+   - gateway:       🟡 Yellow (#FFEB3B)
+   - webapp:        🩵 Cyan (#00BCD4)
+   - security:      ⚫ Dark Red (#B71C1C)
+   - roadmap:       🩷 Pink (#E91E63)
+   - decision:      🟤 Brown (#795548)
+*/
+
+/* Graph View - Tag-based node colors */
+/* Configure these in Obsidian: Settings > Graph > Color Groups */
+/* 
+   Add these queries in Graph View settings:
+   
+   Group 1: tag:#readme        → Color: #4CAF50 (Green)
+   Group 2: tag:#product       → Color: #2196F3 (Blue)
+   Group 3: tag:#architecture  → Color: #9C27B0 (Purple)
+   Group 4: tag:#infrastructure→ Color: #FF9800 (Orange)
+   Group 5: tag:#database      → Color: #F44336 (Red)
+   Group 6: tag:#gateway       → Color: #FFC107 (Amber)
+   Group 7: tag:#webapp        → Color: #00BCD4 (Cyan)
+   Group 8: tag:#security      → Color: #B71C1C (Dark Red)
+   Group 9: tag:#roadmap       → Color: #E91E63 (Pink)
+   Group 10: tag:#decision     → Color: #795548 (Brown)
+*/
+
+/* Note colors in editor (via cssclasses) */
+.readme-doc {
+  --inline-title-color: #4CAF50;
+  --h1-color: #4CAF50;
+}
+
+.product-doc {
+  --inline-title-color: #2196F3;
+  --h1-color: #2196F3;
+}
+
+.architecture-doc {
+  --inline-title-color: #9C27B0;
+  --h1-color: #9C27B0;
+}
+
+.infra-doc {
+  --inline-title-color: #FF9800;
+  --h1-color: #FF9800;
+}
+
+.database-doc {
+  --inline-title-color: #F44336;
+  --h1-color: #F44336;
+}
+
+.gateway-doc {
+  --inline-title-color: #FFC107;
+  --h1-color: #FFC107;
+}
+
+.webapp-doc {
+  --inline-title-color: #00BCD4;
+  --h1-color: #00BCD4;
+}
+
+.security-doc {
+  --inline-title-color: #B71C1C;
+  --h1-color: #B71C1C;
+}
+
+.roadmap-doc {
+  --inline-title-color: #E91E63;
+  --h1-color: #E91E63;
+}
+
+.decision-doc {
+  --inline-title-color: #795548;
+  --h1-color: #795548;
+}
+
+/* Tag pills in preview */
+.tag[href="#readme"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tag[href="#product"] {
+  background-color: #2196F3;
+  color: white;
+}
+
+.tag[href="#architecture"] {
+  background-color: #9C27B0;
+  color: white;
+}
+
+.tag[href="#infrastructure"] {
+  background-color: #FF9800;
+  color: white;
+}
+
+.tag[href="#database"] {
+  background-color: #F44336;
+  color: white;
+}
+
+.tag[href="#gateway"] {
+  background-color: #FFC107;
+  color: black;
+}
+
+.tag[href="#webapp"] {
+  background-color: #00BCD4;
+  color: white;
+}
+
+.tag[href="#security"] {
+  background-color: #B71C1C;
+  color: white;
+}
+
+.tag[href="#roadmap"] {
+  background-color: #E91E63;
+  color: white;
+}
+
+.tag[href="#decision"] {
+  background-color: #795548;
+  color: white;
+}
