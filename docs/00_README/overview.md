@@ -9,7 +9,7 @@ cssclasses:
 
 ## What Is This?
 
-Local AI Assistant — a private AI assistant system designed with SaaS architecture from day one.
+Local AI Assistant — a private AI assistant system designed with multi-user architecture from day one.
 
 ---
 
@@ -33,7 +33,7 @@ Build a personal AI that feels like ChatGPT but runs on self-controlled infrastr
 
 ## Future Phase
 
-- Multi-user SaaS product — see [[phase-5-saas-launch]]
+- Multi-user deployment — see [[phase-5-production-launch]]
 - Hosted [[Supabase]] Cloud — see [[environments-local-staging-prod]]
 - Public web application — see [[ui-pages-and-components]]
 - Secure, scalable, production-grade — see [[production-hardening]]
@@ -53,7 +53,7 @@ A chat interface with two modes — see [[adr-0001-two-tier-inference]]:
 
 ## Key Principles
 
-1. **SaaS-ready from day one** — [[rls-policies|Multi-tenant schema]], [[adr-0004-rls-multi-tenant-from-day-1|RLS]], [[environments-local-staging-prod|environment separation]]
+1. **Production-ready from day one** — [[rls-policies|Multi-tenant schema]], [[adr-0004-rls-multi-tenant-from-day-1|RLS]], [[environments-local-staging-prod|environment separation]]
 2. **Security-first** — [[networking-and-private-access|Private inference]], [[auth-and-jwt|JWT auth]], [[secrets-management|no exposed secrets]]
 3. **Cost-controlled** — [[inference-thinking|Scale-to-zero thinking]], [[cost-controls|budget guardrails]]
 4. **Local-to-prod parity** — Same architecture in dev as production — see [[deployment-plan]]

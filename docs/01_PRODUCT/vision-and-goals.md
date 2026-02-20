@@ -9,7 +9,7 @@ cssclasses:
 
 ## Vision Statement
 
-Build a private AI assistant that matches the experience of ChatGPT while maintaining full control over infrastructure, data, and costs — architected for eventual SaaS deployment.
+Build a private AI assistant that matches the experience of ChatGPT while maintaining full control over infrastructure, data, and costs — architected for eventual multi-user deployment.
 
 For project overview, see [[overview]].
 For build guide, see [[step-by-step-guide]].
@@ -38,10 +38,10 @@ For build guide, see [[step-by-step-guide]].
 - Scale-to-zero for expensive [[inference-thinking|thinking model]]
 - [[cost-controls|Budget guardrails]] and usage monitoring
 
-### 5. SaaS-Ready Architecture
+### 5. Multi-User Ready Architecture
 - [[adr-0004-rls-multi-tenant-from-day-1|Multi-tenant schema from day one]]
 - [[rls-policies|RLS]] enforced at database level
-- Easy transition from private to public product — see [[phase-5-saas-launch]]
+- Easy transition from private to public product — see [[phase-5-production-launch]]
 
 ---
 
@@ -71,9 +71,9 @@ See [[success-metrics]] for detailed measurement.
 
 ## Long-Term Vision
 
-See [[phase-5-saas-launch]] for SaaS roadmap.
+See [[phase-5-production-launch]] for production roadmap.
 
-Phase into a SaaS product where:
+Phase into a multi-user product where:
 - Multiple users subscribe to the service — see [[adr-0004-rls-multi-tenant-from-day-1]]
 - Each user has isolated data and sessions — see [[rls-policies]]
 - Pricing tiers based on [[inference-thinking|thinking mode]] usage — see [[rate-limiting-and-abuse]]

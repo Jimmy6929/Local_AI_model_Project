@@ -9,7 +9,7 @@ cssclasses:
 
 ## Overview
 
-[[adr-0004-rls-multi-tenant-from-day-1|Multi-tenant schema]] designed for SaaS from day one. All user-owned tables include `user_id` for [[rls-policies|RLS]].
+[[adr-0004-rls-multi-tenant-from-day-1|Multi-tenant schema]] designed for multi-user deployment from day one. All user-owned tables include `user_id` for [[rls-policies|RLS]].
 
 For migration workflow, see [[migrations-and-release-process]].
 
@@ -204,7 +204,7 @@ Table: tool_calls
 - id, message_id, user_id, tool_name, input, output, status, created_at
 ```
 
-### For Teams (Future SaaS)
+### For Teams (Future Multi-User)
 ```
 Table: organizations
 - id, name, created_at

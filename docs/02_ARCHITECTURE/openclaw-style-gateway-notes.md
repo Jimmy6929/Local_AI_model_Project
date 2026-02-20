@@ -46,7 +46,7 @@ All intelligence about [[routing-logic|routing]], [[threat-model|safety]], [[rag
 - [[cost-controls|Cost tracking]] straightforward
 
 ### Multi-Channel Ready
-- Future: add Telegram, Discord, Slack adapters — see [[phase-5-saas-launch]]
+- Future: add Telegram, Discord, Slack adapters — see [[phase-5-production-launch]]
 - All adapters route into same [[gateway-responsibilities|Gateway]]
 - Consistent behavior across channels
 
@@ -158,5 +158,5 @@ Each adapter:
 | **Smart Model** (model owns logic) | Simpler infra | Model lock-in, security risks |
 | **Agent Framework** (LangChain, etc.) | Rapid prototyping | Harder to audit, vendor dependency |
 
-This project chooses **Gateway Central** for maximum control and SaaS-readiness.
+This project chooses **Gateway Central** for maximum control and production-readiness.
 

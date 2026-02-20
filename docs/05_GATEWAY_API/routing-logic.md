@@ -176,7 +176,7 @@ ROUTING_KEYWORDS_THINK=["think deeply", "analyze", "compare"]
 ### Thinking Mode Costs More
 - Larger model = more tokens = more cost
 - Track per-user thinking usage
-- Consider limits for free tier (future SaaS)
+- Consider limits for free tier (future multi-user)
 
 ### Cost Controls
 | Control | Implementation |

@@ -25,7 +25,7 @@ For security context, see [[threat-model]] and [[production-hardening]].
 ### Control Costs
 - Limit expensive operations — see [[cost-controls]]
 - Prevent runaway spending — see [[inference-thinking]]
-- Enable usage-based billing (future) — see [[phase-5-saas-launch]]
+- Enable usage-based billing (future) — see [[phase-5-production-launch]]
 
 ### Fair Usage
 - One user can't monopolize resources
@@ -46,9 +46,9 @@ For security context, see [[threat-model]] and [[production-hardening]].
 - Expensive operations have lower limits
 - Read operations have higher limits
 
-### Tiered Limits (Future SaaS)
+### Tiered Limits (Future Multi-User)
 
-See [[phase-5-saas-launch]] and [[adr-0004-rls-multi-tenant-from-day-1]] for multi-tenant context.
+See [[phase-5-production-launch]] and [[adr-0004-rls-multi-tenant-from-day-1]] for multi-tenant context.
 
 | Tier | Chat ([[inference-instant|instant]]) | Chat ([[inference-thinking|think]]) | [[storage-and-files|Files]] |
 |------|----------------|--------------|-------|

@@ -197,7 +197,7 @@ Direct upload is more efficient for large files.
   2. Delete file from Storage
   3. Log deletion for audit
 
-### Storage Limits (Future SaaS)
+### Storage Limits (Future Multi-User)
 - Track total storage per user
 - Enforce tier-based limits
 - Alert when approaching limit

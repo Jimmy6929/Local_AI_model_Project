@@ -12,7 +12,7 @@ cssclasses:
 Metrics to evaluate whether the system is meeting its goals at each phase.
 
 For goals context, see [[vision-and-goals]].
-For phase details, see [[phase-1-chat-mvp]], [[phase-2-two-modes]], [[phase-3-rag]], [[phase-4-tools]], [[phase-5-saas-launch]].
+For phase details, see [[phase-1-chat-mvp]], [[phase-2-two-modes]], [[phase-3-rag]], [[phase-4-tools]], [[phase-5-production-launch]].
 
 ---
 
@@ -91,9 +91,9 @@ See [[phase-4-tools]] for build details.
 
 ---
 
-## Phase 5: SaaS Readiness Metrics
+## Phase 5: Production Readiness Metrics
 
-See [[phase-5-saas-launch]] for build details.
+See [[phase-5-production-launch]] for build details.
 
 ### Security Audit
 - [ ] [[rls-policies|RLS policies]] pass manual review — see [[adr-0004-rls-multi-tenant-from-day-1]]

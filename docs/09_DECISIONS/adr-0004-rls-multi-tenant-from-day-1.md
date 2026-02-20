@@ -12,7 +12,7 @@ Accepted
 
 ## Context
 
-The system will eventually support multiple users ([[phase-5-saas-launch|SaaS]]). Data isolation options:
+The system will eventually support multiple users ([[phase-5-production-launch|multi-user]]). Data isolation options:
 1. Separate databases per user
 2. Schema-per-user
 3. Shared tables with application-level filtering
@@ -24,7 +24,7 @@ Related documents:
 - [[rls-policies]] — Policy definitions
 - [[schema]] — Table structures
 - [[threat-model]] — Security context
-- [[phase-5-saas-launch]] — When this pays off
+- [[phase-5-production-launch]] — When this pays off
 
 ## Decision
 
@@ -44,7 +44,7 @@ Every table containing user data includes:
 - Enforced at query level
 - Defense in depth
 
-**SaaS-Ready Architecture**
+**Multi-User Ready Architecture**
 - No migration needed for multi-user
 - Patterns established early
 - Testing happens throughout development
@@ -77,7 +77,7 @@ Every table containing user data includes:
 
 ### Positive
 - Security built-in — see [[threat-model]]
-- No multi-tenant migration needed → [[phase-5-saas-launch]]
+- No multi-tenant migration needed → [[phase-5-production-launch]]
 - Application code simpler — see [[gateway-responsibilities]]
 - Database catches mistakes
 

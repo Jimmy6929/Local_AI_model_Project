@@ -13,7 +13,7 @@ Add [[tools-framework|tool execution]] capability for web search, note saving, a
 
 For implementation details, see [[tools-framework]].
 For security context, see [[threat-model]] and [[prompt-injection-notes]].
-Previous: [[phase-3-rag]] | Next: [[phase-5-saas-launch]]
+Previous: [[phase-3-rag]] | Next: [[phase-5-production-launch]]
 
 ---
 

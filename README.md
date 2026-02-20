@@ -1,6 +1,6 @@
-# Jimmy Personal AI Assistant
+# Local AI Assistant
 
-A private AI assistant system designed with SaaS architecture from day one. This project aims to build a personal AI that matches the experience of ChatGPT while maintaining full control over infrastructure, data, and costs.
+An open source AI assistant system designed with multi-user architecture from day one. This project aims to build a personal AI that matches the experience of ChatGPT while maintaining full control over infrastructure, data, and costs.
 
 ## Overview
 
@@ -16,7 +16,7 @@ This system provides a chat interface with two inference modes:
 - **Two-Tier Inference**: Balance between cost and capability with instant and thinking modes
 - **Full Data Ownership**: All data stored in self-controlled Supabase instance
 - **No Third-Party LLM API Costs**: Pay for GPU compute, not per-token API fees
-- **SaaS-Ready Architecture**: Multi-tenant schema with Row-Level Security from day one
+- **Multi-User Ready Architecture**: Multi-tenant schema with Row-Level Security from day one
 - **Private Infrastructure**: Inference endpoints are private and only accessible via Gateway
 
 ## Architecture
@@ -119,8 +119,8 @@ Add tool execution capability for extended functionality.
 | Create task management tools | Not Started |
 | Add tool logging and audit | Not Started |
 
-### Phase 5: SaaS Launch
-Transition from private use to production-ready SaaS.
+### Phase 5: Production Launch
+Transition from private use to production-ready deployment.
 
 | Task | Status |
 |------|--------|

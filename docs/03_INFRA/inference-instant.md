@@ -70,7 +70,7 @@ Part of the [[adr-0001-two-tier-inference|two-tier inference architecture]].
 |--------|-------------|
 | Tasks | Coding, writing, planning, summarization |
 | Size | Must fit in available VRAM |
-| License | Permissive for commercial use (future SaaS) |
+| License | Permissive for commercial use (future deployment) |
 | Format | GGUF, AWQ, or native weights |
 | Speed | Optimized for inference (quantized OK) |
 

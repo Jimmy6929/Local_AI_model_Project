@@ -298,7 +298,7 @@ Never implement:
 - calendar_create
 - external_api_call (with strict controls)
 
-### Integration Tools (Future SaaS)
+### Integration Tools (Future Multi-User)
 - slack_post
 - github_create_issue
 - notion_create_page

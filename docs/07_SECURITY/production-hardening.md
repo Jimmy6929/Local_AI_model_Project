@@ -12,7 +12,7 @@ cssclasses:
 Security measures required before deploying to production with real users.
 
 For environment setup, see [[environments-local-staging-prod]].
-For deployment steps, see [[deployment-plan]] and [[phase-5-saas-launch]].
+For deployment steps, see [[deployment-plan]] and [[phase-5-production-launch]].
 
 ---
 

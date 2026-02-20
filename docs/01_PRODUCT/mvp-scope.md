@@ -62,7 +62,7 @@ For metrics, see [[success-metrics]].
 - Usage analytics
 - Mobile optimization
 
-### Production Deployment → [[phase-5-saas-launch]]
+### Production Deployment → [[phase-5-production-launch]]
 - [[adr-0002-supabase-local-then-cloud|Hosted Supabase]]
 - Public web app
 - [[rate-limiting-and-abuse|Rate limiting]]

@@ -304,7 +304,7 @@ For phase context, see [[phase-4-tools]] and [[tools-framework]].
 
 ## Phase 5: Production
 
-For phase context, see [[phase-5-saas-launch]] and [[environments-local-staging-prod]].
+For phase context, see [[phase-5-production-launch]] and [[environments-local-staging-prod]].
 
 ### Step 5.1: Set Up Production Infrastructure
 
@@ -404,6 +404,6 @@ supabase logs
 1. Collect user feedback — see [[success-metrics]]
 2. Monitor costs and performance — see [[cost-controls]]
 3. Prioritize improvements
-4. Plan billing integration — see [[phase-5-saas-launch]]
+4. Plan billing integration — see [[phase-5-production-launch]]
 5. Consider mobile app
 

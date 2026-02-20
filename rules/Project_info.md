@@ -8,7 +8,7 @@ IMPORTANT RULES FOR THE AI (READ FIRST)
 - Whenever you produce output:
   1) Show folder structure first
   2) Then write each file’s content under “File: /path/to/file.md”
-- Keep everything clean, readable, and SaaS-ready in architecture.
+- Keep everything clean, readable, and production-ready in architecture.
 - Assume the reader is building this step-by-step using VS Code, Copilot, and Obsidian.
 
 ============================================================
@@ -16,7 +16,7 @@ IMPORTANT RULES FOR THE AI (READ FIRST)
 ============================================================
 
 Goal:
-Build a Private Personal AI Assistant now, structured like a future SaaS product later.
+Build a Private Personal AI Assistant now, structured for future multi-user deployment.
 
 Core experience:
 - A chat UI (web app) that feels like ChatGPT
@@ -85,7 +85,7 @@ E) Supabase (Local now, Cloud later)
 
 F) Security & Networking
 - During private dev: VPN (Tailscale) + firewall to keep inference private
-- For SaaS later: strict API auth + rate limits + audits; inference still private to backend
+- For multi-user later: strict API auth + rate limits + audits; inference still private to backend
 
 ============================================================
 3) WHAT TO BUILD FIRST (MVP ORDER)
@@ -125,7 +125,7 @@ Phase 4 — “Tools and safety”
     - backend executes tools, model only suggests
     - log everything
 
-Phase 5 — “SaaS readiness”
+Phase 5 — "Production readiness"
 12) Local → Production migration plan:
     - environment variable switching
     - migrations pushed to Supabase Cloud
@@ -151,7 +151,7 @@ Phase 5 — “SaaS readiness”
   Database-level policies ensuring users can only access their own rows.
 
 - Multi-tenant:
-  A SaaS pattern where many users share one database; isolation is enforced via user_id + RLS.
+  A pattern where many users share one database; isolation is enforced via user_id + RLS.
 
 ============================================================
 5) OBSIDIAN VAULT STRUCTURE (FOLDERS + FILES)
@@ -216,7 +216,7 @@ PROJECT STRUCTURE:
   phase-2-two-modes.md
   phase-3-rag.md
   phase-4-tools.md
-  phase-5-saas-launch.md
+  phase-5-production-launch.md
 
 /09_DECISIONS (Architecture Decision Records)
   adr-0001-two-tier-inference.md
@@ -235,7 +235,7 @@ STEP 0 — Decide “Local Dev Strategy”
   - Dev box only (can sleep; minimal ops)
   - Always-on staging (disable sleep; backups; monitoring)
 
-STEP 1 — Create Supabase data model (SaaS-ready from day 1)
+STEP 1 — Create Supabase data model (multi-user ready from day 1)
 - Create the tables:
   - profiles
   - chat_sessions
@@ -308,7 +308,7 @@ STEP 7 — Private networking plan (dev + staging)
 - Document access model:
   - Tailscale mesh for private access (laptop + gateway + model servers)
   - firewall rules: only allow model ports from VPN subnet
-- For SaaS production:
+- For multi-user production:
   - inference endpoints remain private to backend network
   - Gateway is the only public surface (HTTPS)
 
@@ -366,7 +366,7 @@ STEP 11 — Cost controls plan
   - max requests per hour
   - alerting triggers
 
-STEP 12 — Local → Production release plan (future SaaS)
+STEP 12 — Local → Production release plan (future multi-user)
 - Define environments:
   - Local: local Supabase stack
   - Staging: hosted Supabase project or always-on home stack
@@ -390,7 +390,7 @@ STEP 12 — Local → Production release plan (future SaaS)
 When the user asks for any feature note, you must:
 - Place the note into the correct folder/file from the structure above.
 - If the file does not exist, create it and add it to the structure.
-- Write in a “SaaS architecture repo” style:
+- Write in a "production architecture repo" style:
   - Goal
   - Non-goals
   - Requirements

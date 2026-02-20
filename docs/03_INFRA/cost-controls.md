@@ -174,7 +174,7 @@ See [[inference-thinking]] for infrastructure details.
 
 ## Cost Tracking Dashboard (Future)
 
-MVP can skip this, but for SaaS:
+MVP can skip this, but for multi-user deployment:
 - Per-user usage tracking
 - Daily/weekly/monthly summaries
 - Projected end-of-month cost

@@ -5,11 +5,11 @@ cssclasses:
   - roadmap-doc
 ---
 
-# Phase 5: SaaS Launch
+# Phase 5: Production Launch
 
 ## Goal
 
-Transition from private use to production-ready SaaS with multiple users.
+Transition from private use to production-ready deployment with multiple users.
 
 For security requirements, see [[production-hardening]] and [[threat-model]].
 For multi-tenant architecture, see [[adr-0004-rls-multi-tenant-from-day-1]].

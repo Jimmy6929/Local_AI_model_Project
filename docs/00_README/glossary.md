@@ -56,7 +56,7 @@ Database-level access control:
 For implementation details, see [[rls-policies]] and [[adr-0004-rls-multi-tenant-from-day-1]].
 
 ### Multi-Tenant
-A SaaS architecture where:
+A multi-user architecture where:
 - Many users share one database
 - Isolation is enforced via `user_id` column + [[rls-policies|RLS policies]]
 - No data leakage between users

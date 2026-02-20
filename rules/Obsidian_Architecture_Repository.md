@@ -67,7 +67,7 @@ STYLE REQUIREMENTS
 - Use headings and subheadings.
 - Use bullet points where useful.
 - Be concise but comprehensive.
-- Think like a technical founder documenting a serious SaaS.
+- Think like a technical founder documenting a serious open source project.
 - Organize by domains (architecture, infra, security, cost, roadmap).
 - Make Obsidian visually clean and navigable.
 
@@ -84,7 +84,7 @@ It includes:
 - RAG memory system
 - Web app (Next.js)
 - Private development now
-- Future SaaS deployment
+- Future multi-user deployment
 
 ------------------------------------------------------------
 OBJECTIVE
@@ -94,7 +94,7 @@ Make the Obsidian vault look like:
 - Clean
 - Professional
 - Scalable
-- Future SaaS-ready
+- Future production-ready
 
 ------------------------------------------------------------
 REMEMBER

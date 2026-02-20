@@ -1,4 +1,4 @@
-PROJECT CONTEXT: Local AI Assistant (Private → Future SaaS)
+PROJECT CONTEXT: Local AI Assistant (Private → Production)
 
 IMPORTANT:
 You are ONLY here to help write structured technical notes in plain text format.
@@ -15,7 +15,7 @@ No code blocks unless explicitly requested.
 ------------------------------------------------------------
 PROJECT OVERVIEW
 
-This project is a personal AI assistant system that will eventually become a SaaS product.
+This project is a personal AI assistant system that can scale to support multiple users.
 
 Current phase:
 - Private, single-user
@@ -24,7 +24,7 @@ Current phase:
 - Local or self-hosted Supabase for development
 
 Future phase:
-- Multi-user SaaS
+- Multi-user deployment
 - Hosted Supabase (Auth + Storage + Postgres + RLS)
 - Public web app
 - Secure, scalable architecture
@@ -48,7 +48,7 @@ Build a private AI assistant with two inference modes:
 
 The system must:
 - Be private during development
-- Be SaaS-ready in architecture
+- Be production-ready in architecture
 - Use Supabase (Auth + Storage + Postgres + RLS)
 - Store chats and documents
 - Support RAG (Retrieval-Augmented Generation)
@@ -85,7 +85,7 @@ HIGH-LEVEL ARCHITECTURE
 ------------------------------------------------------------
 DEVELOPMENT PHILOSOPHY
 
-- Design for SaaS from day one
+- Design for multi-user from day one
 - Multi-tenant schema even if single-user now
 - RLS enforced at database level
 - Environment-based configuration (local → staging → production)
