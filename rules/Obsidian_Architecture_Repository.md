@@ -74,7 +74,7 @@ STYLE REQUIREMENTS
 ------------------------------------------------------------
 PROJECT CONTEXT
 
-This is the Jimmy Personal AI Assistant project.
+This is the Local AI Assistant project.
 
 It includes:
 - Gateway (FastAPI control plane)

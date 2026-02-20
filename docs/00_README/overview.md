@@ -9,7 +9,7 @@ cssclasses:
 
 ## What Is This?
 
-Jimmy Personal AI Assistant — a private AI assistant system designed with SaaS architecture from day one.
+Local AI Assistant — a private AI assistant system designed with SaaS architecture from day one.
 
 ---
 

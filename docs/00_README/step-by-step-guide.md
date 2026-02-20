@@ -9,7 +9,7 @@ cssclasses:
 
 ## Overview
 
-This guide walks through building the Jimmy AI Assistant from start to finish, phase by phase.
+This guide walks through building the Local AI Assistant from start to finish, phase by phase.
 
 For project context, see:
 - [[overview]] — Project vision and architecture

@@ -76,7 +76,7 @@ supabase/
 ### File Content Example
 ```
 -- Migration: Create profiles table
--- Author: Jimmy
+-- Author: Developer
 -- Date: 2026-02-19
 
 -- Create table
