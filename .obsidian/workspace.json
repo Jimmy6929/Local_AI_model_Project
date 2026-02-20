@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/00_README/step-by-step-guide.md",
+                "file": "2026-02-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "step-by-step-guide"
+              "title": "2026-02-20"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/00_README/step-by-step-guide.md",
+                "file": "2026-02-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for step-by-step-guide"
+              "title": "Backlinks for 2026-02-20"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/00_README/step-by-step-guide.md",
+                "file": "2026-02-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from step-by-step-guide"
+              "title": "Outgoing links from 2026-02-20"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/00_README/step-by-step-guide.md",
+                "file": "2026-02-20.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of step-by-step-guide"
+              "title": "Outline of 2026-02-20"
             }
           }
         ]
@@ -171,14 +171,16 @@
   },
   "active": "e0bf188ed9ad49e3",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
+    "README.md",
+    "2026-02-20.md",
     "docs/00_README/step-by-step-guide.md",
+    "docs/01_PRODUCT/mvp-scope.md",
+    "docs/02_ARCHITECTURE/data-flow.md",
+    "Untitled 1.canvas",
     "docs/00_README/overview.md",
     "docs/00_README/glossary.md",
     "Untitled.canvas",
-    "docs/01_PRODUCT/mvp-scope.md",
     "docs/04_DATABASE_SUPABASE/auth-and-jwt.md",
-    "Supabase.md",
-    "docs/02_ARCHITECTURE/data-flow.md"
+    "Supabase.md"
   ]
 }

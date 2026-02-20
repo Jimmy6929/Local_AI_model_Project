@@ -255,7 +255,7 @@ For inference modes, see [[inference-instant]] and [[inference-thinking]].
 
 ### No Sessions
 ```
-Welcome to Jimmy AI!
+Welcome to Local AI!
 Start a new chat to begin.
 [New Chat]
 ```

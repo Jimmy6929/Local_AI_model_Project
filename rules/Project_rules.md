@@ -1,4 +1,4 @@
-PROJECT CONTEXT: Jimmy Personal AI Assistant (Private → Future SaaS)
+PROJECT CONTEXT: Local AI Assistant (Private → Future SaaS)
 
 IMPORTANT:
 You are ONLY here to help write structured technical notes in plain text format.

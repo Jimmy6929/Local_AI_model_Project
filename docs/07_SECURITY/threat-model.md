@@ -9,7 +9,7 @@ cssclasses:
 
 ## Overview
 
-Security threats and mitigations for the Jimmy AI Assistant system.
+Security threats and mitigations for the Local AI Assistant system.
 
 For specific defenses, see:
 - [[prompt-injection-notes]] — AI-specific attacks
